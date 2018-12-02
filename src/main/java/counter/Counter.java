@@ -1,5 +1,5 @@
 package counter;
 
 public interface Counter {
-    int increment();
+    int increment() throws InterruptedException;
 }
