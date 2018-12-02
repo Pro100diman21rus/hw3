@@ -1,0 +1,10 @@
+Benchmark                           (threadsCount)   Mode  Cnt     Score      Error  Units
+atomic.AtomicMain.startCount                     1  thrpt   20  6802,764 ? 3560,011  ops/s
+atomic.AtomicMain.startCount                     2  thrpt   20  3015,613 ? 1497,033  ops/s
+atomic.AtomicMain.startCount                     4  thrpt   20  1685,723 ?  625,615  ops/s
+semaphore.SemaphoreMain.startCount               1  thrpt   20  2054,259 ?  464,053  ops/s
+semaphore.SemaphoreMain.startCount               2  thrpt   20  1086,169 ?  398,517  ops/s
+semaphore.SemaphoreMain.startCount               4  thrpt   20   511,780 ?  183,831  ops/s
+synch.SynchMain.startCount                       1  thrpt   20  6368,884 ? 2990,728  ops/s
+synch.SynchMain.startCount                       2  thrpt   20  3487,113 ? 1664,082  ops/s
+synch.SynchMain.startCount                       4  thrpt   20  1540,405 ?  673,770  ops/s
